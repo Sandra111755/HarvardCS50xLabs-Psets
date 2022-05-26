@@ -1,0 +1,53 @@
+Distilled objectives for substitution cipher.
+-----------------------------------
+
+1. Singlular case insensitive command line argument
+    a. exit status for no command line argument and too many arguments
+        aa. "Usage: ./substitution key" - return 1 from main
+    b. exit status for invalid key (must contain 26 characters, must be alphabetic, no repeating characters)
+        aa. "Key must contain 26 characters." - return 1 from main
+        ab. "Key must only contain alphabetic characters." - return 1 from main
+        ac. "Key must not contain repeating characters." - return 1 from main
+
+2. Output "plaintext:  " and on same line prompt user for a string of plaintext using get_string
+
+3. Output "ciphertext: " and on same line output the corresponding ciphertext
+    a. make case insensitive to processing
+    a. non-alphabetical characters pass through unchanged
+    b. output is case sensitive
+
+4. new line after printing out ciphertext
+    a. return 0 from main
+-----------------------------------
+
+Psuedocode for substitution cipher
+-----------------------------------
+1. Check for key argument and amount of arguments
+
+2. check for key validity
+    a. only 26 characters
+    b. alphabetic only characters
+    c. no repeating characters
+        aa. ensure key is not case sensitive
+
+3. get plaintext
+
+5. Output ciphertext
+    a. iterate through plaintext character by character and convert using the key as your base alphabet
+    b. maintain case sensitivity
+    c. pass through all numeric and special characters
+
+
+6. return 0
+
+-----------------------------------
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+JTREKYAVOGDXPSNCUIZLFBMWHQ / jtrekyavogdxpsncuizlfbmwhq
+
+E.g.
+
+./substitution vchprzgjntlsKFBDQWAXEUYMOI
+plaintext:  Hello, World!
+ciphertext: Jrssb, Ybwsp!
