@@ -129,12 +129,12 @@ int main(int argc, string argv[])
 // Record preference if vote is valid
 bool vote(int voter, int rank, string name)
 {
-    for(int i = 0; i < candidate_count; i++)
+    for (int i = 0; i < candidate_count; i++)
     {
         if (strcasecmp(candidates[i].name, name) == 0)
         {
-        preferences[voter][rank] = i;
-        return true;
+            preferences[voter][rank] = i;
+            return true;
         }
     }
     return false;
@@ -145,7 +145,7 @@ void tabulate(void)
 {
     for (int i = 0; i < voter_count; i++)
     {
-        for(int j = 0; j < candidate_count; j++)
+        for (int j = 0; j < candidate_count; j++)
         {
             if (candidates[preferences[i][j]].eliminated == false)
             {
@@ -160,12 +160,12 @@ void tabulate(void)
 // Print the winner of the election, if there is one
 bool print_winner(void)
 {
-    for(int i = 0; i < candidate_count; i++)
+    for (int i = 0; i < candidate_count; i++)
     {
         if (candidates[i].votes > voter_count / 2)
         {
-        printf("%s\n", candidates[i].name);
-        return true;
+            printf("%s\n", candidates[i].name);
+            return true;
         }
     }
     return false;
@@ -191,7 +191,7 @@ bool is_tie(int min)
     int remainingcandidates = 0;
     int count = 0;
 
-    for(int i = 0; i < candidate_count; i++)
+    for (int i = 0; i < candidate_count; i++)
     {
         if (candidates[i].eliminated == false)
         {
@@ -212,7 +212,7 @@ bool is_tie(int min)
 // Eliminate the candidate (or candidates) in last place
 void eliminate(int min)
 {
-    for(int i = 0; i < candidate_count; i++)
+    for (int i = 0; i < candidate_count; i++)
     {
         if (candidates[i].votes == min)
         {
