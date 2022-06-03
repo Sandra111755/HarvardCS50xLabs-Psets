@@ -1,0 +1,215 @@
+Start time: 15:11:00 - 05/31/2022
+
+day 1. ended my day around 14:00 after having spent the majority of the day completing plurality i could barely look at runoff haha
+
+day 2 & 3. feeling daunted by runoff i dedcided to look into apps to help me organize the layout of the program and ended up on simplemind;
+it's not a flowchart software specifically but it has a bit of those features. 
+it was perfect for what i would need it for overall, so i purchased the pro version. i spent these two days mapping out 
+the entirety of the program i was presented with. i was hoping i could better understand the functions i was being asked to write 
+(some of the icons aren't correct i know, but improvising and including a legend seemed to work out okay in the end) by fully
+fleshing out the logic into a place i could reference easily.
+
+day 4. i attacked runoff hard; after having spent the passed two(8 hour)days mapping the entire flow of it it seemed *much* smaller than i
+initially felt.
+i took the time to work out the logic of each function alongside the requirements nescessary for the program to run succesfully.
+there were bugs at the end but thankfully they were few. i only had to fix the find_min and print_winner functions,
+and it was only cause i made a few silly mistakes on both of them.
+
+i feel like my understanding of certain bits of logic and how it relates to flow, and program design has
+grown a bit but there is still so much more to go. i'm excited for what's next...
+
+ahoy tideman~
+
+End time: 16:24:00 - 06/03/2022
+
+-----------------------------------------
+
+Understanding~
+
+Constants:
+MAX_CANDIDATES for the maximum number of candidates in the election, and
+MAX_VOTERS for the maximum number of voters in the election.
+
+Two-dimensional array preferences:
+The array preferences[i] will represent all of the preferences for voter number i, and the integer preferences[i][j]
+here will store the index of the candidate who is the jth preference for voter i.
+
+candidate struct:
+Every candidate has a string field for their name, and int representing the number of votes they currently have,
+and a bool value called eliminated that indicates whether the candidate has been eliminated from the election.
+The array candidates will keep track of all of the candidates in the election.
+
+Global variables:
+voter_count and candidate_count.
+
+Main:
+
+Gives every voter a chance to vote , if at any point the ballot is deemed to be invalid, the program exits.
+
+As the voter enters their preferences, the vote function is called to keep track of all of the preferences.
+
+Once all of the votes are in, another loop begins:
+this one’s going to keep looping through the runoff process of checking for a winner
+and eliminating the last place candidate until there is a winner.
+
+The first call here is to a function called tabulate,
+which should look at all of the voters’ preferences and compute the current vote totals
+by looking at each voter’s top choice candidate who hasn’t yet been eliminated.
+
+Next, the print_winner function should print out the winner if there is one; if there is, the program is over.
+
+Otherwise the program needs to determine the fewest number of votes anyone still in the election received (via a call to find_min).
+If it turns out that everyone in the election is tied with
+the same number of votes (as determined by the is_tie function), the election is declared a tie;
+
+otherwise, the last-place candidate (or candidates) is eliminated from the election via a call to the eliminate function.
+
+
+main objectives:
+
+finish functions~  vote, tabulate, print_winner, find_min, is_tie, and eliminate
+
+----------------
+
+vote
+
+Complete the vote function.
+
+    The function takes arguments voter, rank, and name.
+    If name is a match for the name of a valid candidate, then you should update the global preferences array
+    to indicate that the voter voter has that candidate as their rank preference
+    (where 0 is the first preference, 1 is the second preference, etc.).
+
+    If the preference is successfully recorded, the function should return true; the function should return
+    false otherwise (if, for instance, name is not the name of one of the candidates).
+
+    You may assume that no two candidates will have the same name.
+
+Hints
+
+    Recall that candidate_count stores the number of candidates in the election.
+    Recall that you can use strcmp to compare two strings.
+    Recall that preferences[i][j] stores the index of the candidate who is the jth ranked preference for the ith voter.
+
+-----------------
+
+tabulate
+
+Complete the tabulate function.
+
+    The function should update the number of votes each candidate has at this stage in the runoff.
+
+    Recall that at each stage in the runoff, every voter effectively votes for their top-preferred
+    candidate who has not already been eliminated.
+
+Hints
+
+    Recall that voter_count stores the number of voters in the election and that,
+    for each voter in our election, we want to count one ballot.
+
+    Recall that for a voter i, their top choice candidate is represented by
+    preferences[i][0], their second choice candidate by preferences[i][1], etc.
+
+    Recall that the candidate struct has a field called eliminated, which will be
+    true if the candidate has been eliminated from the election.
+
+    Recall that the candidate struct has a field called votes, which you’ll likely
+    want to update for each voter’s preferred candidate.
+
+    Once you’ve cast a vote for a voter’s first non-eliminated candidate, you’ll want to stop there,
+    not continue down their ballot! Recall that you can break out of a loop early using break inside of a conditional
+
+------------------
+
+print_winner
+
+Complete the print_winner function.
+
+    If any candidate has more than half of the vote, their name should be printed and the function should return true.
+
+    If nobody has won the election yet, the function should return false.
+
+Hints
+
+    Recall that voter_count stores the number of voters in the election. Given that,
+    how would you express the number of votes needed to win the election?
+
+-------------------
+
+find_min
+
+Complete the find_min function.
+
+    The function should return the minimum vote total for any candidate who is still in the election.
+
+Hints
+
+    You’ll likely want to loop through the candidates to find the one who is
+    both still in the election and has the fewest number of votes.
+
+    What information should you keep track of as you loop through the candidates?
+
+-----------------------
+
+is_tie
+
+Complete the is_tie function.
+
+    The function takes an argument min, which will be the minimum number of votes that anyone in the election currently has.
+
+    The function should return true if every candidate remaining in the election has the
+    same number of votes, and should return false otherwise.
+
+Hints
+
+    Recall that a tie happens if every candidate still in the election has the same number of
+    votes. Note, too, that the is_tie function takes an argument min, which is the smallest number of votes any candidate currently has.
+
+    How might you use that information to determine if the election is a tie (or, conversely, not a tie)?
+
+-----------------------
+
+eliminate
+
+Complete the eliminate function.
+
+    The function takes an argument min, which will be the minimum number of votes that anyone in the election currently has.
+    The function should eliminate the candidate (or candidates) who have min number of votes.
+
+-----------------------
+
+E.g.
+
+./runoff Alice Bob Charlie
+Number of voters: 5
+Rank 1: Alice
+Rank 2: Charlie
+Rank 3: Bob
+
+Rank 1: Alice
+Rank 2: Charlie
+Rank 3: Bob
+
+Rank 1: Bob
+Rank 2: Charlie
+Rank 3: Alice
+
+Rank 1: Bob
+Rank 2: Charlie
+Rank 3: Alice
+
+Rank 1: Charlie
+Rank 2: Alice
+Rank 3: Bob
+
+Alice
+
+------------------------
+
+Be mindful of:
+
+    An election with any number of candidate (up to the MAX of 9)
+    Voting for a candidate by name
+    Invalid votes for candidates who are not on the ballot
+    Printing the winner of the election if there is only one
+    Not eliminating anyone in the case of a tie between all remaining candidates
