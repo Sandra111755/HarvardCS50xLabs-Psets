@@ -1,0 +1,40 @@
+Start time: 16:47:00 - friday - 06/03/2022 {
+
+    { day 1. friday - 06/03/2022
+
+        i just finished the runoff problem set and i'm planning on enjoying my weekend.
+        i got a few preliminary things out of the way. it seems like tideman is going to be pretty tough to solve. }
+
+    { day 2. 08:08:00 - monday - 06/06/2022
+
+        i looked over the problem set over the weekend and i'm planning on mapping out
+        the flow of the given program again once i have my objectives.txt file established.
+        i believe it helped me previously and will help me again this time around.
+        i'm not fond of how long the last one took, but now that i have a better understanding of how the simplemind app operates
+        i'm expecting this process to go much faster this time through.
+        as an aside, i have looked up code-to-flow style apps/websites but they are cost-prohibitive to me at the moment and
+        i want to remain focused on the task at hand.
+
+           15:18:00 - monday - 06/06/2022
+
+        i finished the flowchart in roughly 5 hours worth of work, the rest of the day was filled with running errands.
+        i'm excited that i managed to cut off 11 hours from the creation of the flowchart, which is arguably more complex than runoff.
+        it helped a lot to have the legend i made previously to keep track of each function at the macro and micro scale respectively.
+        i'm planning on having the program i've been given completely understood by the end of tomorrow, but the usage of
+        arrays and local variables is different from runoff (or appears to be) so it may not be that easy... we'll see. }
+
+    { day 3. 08:05:00 - tuesday - 06/07/2022
+
+        the flowchart definately helped in my understanding the program better, but not nearly as much as it did with runoff.
+        i'm having quite a difficult time in understanding how each of the arrays interact with each other.
+        i can forsee myself spending a lot of time attempting to solve this and unsure if i'll be able to without assistance.
+        it may be more economical timewise for me to move on and come back later? will see...
+
+          15:53:00 - tuesday - 06/07/2022 }
+
+    { day 4. 08:33:00 - wednesday - 06/08/2022
+
+        i decided last night after some heavy consideration to shelve tideman for the time being,
+        until i'm better able to grasp the interactions between multiple different kinds of arrays. }
+
+End time: }
