@@ -1,10 +1,12 @@
 Start time: 08:00:00 - monday - 06/13/2022 {
 
+{
 i finished the volume lab.
 
     learned about the proper syntax and usage for fread and fwrite, and about the usage of variables for unsigned and signed integers.
 
     it's very interesting that fread manages to store data that it's previously read and you can use that fact to
     run a while loop using fread reaching the end of the file as the kill condition.
+}
 
 } End time 11:44:00 - monday - 06/13/2022
