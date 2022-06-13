@@ -1,0 +1,40 @@
+----------------------------------------
+start time: 08:20:00 - 06/10/2022 {
+
+{
+i've been working my way through the week 4 lecture for the passed 2 days.
+
+i'm planning on having it finished by the end of today, and some work put into the lab at the very least.
+there is so much information needing to be processed and notes to be taken from such a densely filled video.
+
+i've found that switching to a hybrid style of study works best for me.
+i process, absorb and take notes on the cs50x lectures but i'm also solving random problems on
+codewars/leetcode to keep my coding skills sharp and to get a better understanding of data structures and algorithms.
+
+i believe that spreading out my learning in such a manner will help me grow much faster and
+retain more information than just trying to get through the material as fast as possible.
+
+As much as i crave learning and advancing myself i am doing my best to not burn myself out by overdoing it.
+
+it's a marathon not a sprint.
+}
+----------------------------------------
+14:42:00
+{
+i finished the week 4 lecture; the 15 pages of notes is definately a record for two and a half hours worth of lecture.
+i learned quite a bit about pointers, scanf, malloc and free; i was also introduced to valgrind, which is a program that analyzes
+code in programs for possible memory issues.
+i'm looking forward to starting the lab and then moving on to this weeks problem sets, so much so that i may (re: very likely will)
+put in time over the weekend so i can at least start the problem sets on monday.
+}
+----------------------------------------
+17:10:00
+{
+    i just finished setting up the rest of the structure of the files for the volume lab after enjoying nice dinner.
+    the structure includes a journal, objectives, and psuedocode.
+    i've gone over what is being asked for the lab and i believe i'll be able to figure it out.
+    as much as i'd like to continue right now, i'm going to rest for the day and absorb both what i learned today
+    and my delicious dinner.
+}
+
+} end 17:19:00 - 06/10/2022
