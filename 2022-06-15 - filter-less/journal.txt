@@ -1,0 +1,73 @@
+Start time: 12:00:00 - monday - 06/13/2022
+{
+{
+    i'm starting filter-less. it looks quite complicated at first glance.
+    i'm going to get myself orgnanized then dig into it, ideally with little issue.
+}
+
+14:09:00 - monday - 06/13/2022
+{
+    i am getting better at filtering information i think. that is to say that i don't *have* to understand 1000% of
+    every bit of "finished" code that is presented to me to complete a function or two for it. just understand what is being
+    passed to those functions and process the data accordingly.
+
+    i was feeling a bit overwhelmed when i started the day, looking at the entirety of the weeks problem sets,
+    but i feel a bit better now having realized that.
+}
+
+17:18:00 - monday - 06/13/2022
+{
+    finishing today while having finished the volume lab, grayscale and sepia filters for filter-less.
+    if i can clean up the sepia conditionals tomorrow i will, but it's "readable" and it works as intended.
+    will be tackling reflect and hopefully blur tomorrow
+}
+
+8:05:00 - tuesday - 2022/06/14
+{
+    thinking on it and putting some research into it i don't believe i could clean up the sepia filters,
+    not without introducing either an additional function, more complex nested statements
+    or an equally simple but wholly unnescessary switch statement.
+
+    i'm trying a different arguably better long term date formatting. instead of day month year it will be year-month-day, to aid in
+    organization and make searching much easier.
+}
+
+14:40:00 - tuesday - 2022/06/14
+{
+    after spending the majority of the day trying different ideas for reflect i landed on one that showed promise and
+    it ended up being the solution that the problem was looking for. thankfully
+    keeping things short and to the point while still remaining readable is an ideal to strive for.
+
+    blur looks like it will be an interesting problem to solve.
+}
+
+16:29:00 - tuesday - 2022/06/14
+{
+    going over all pertinent information, blur is going to be *very* difficult to solve but still feels like it's
+    not nearly as bad as tideman. i suppose i'll see, haha.
+
+    it's been a long day so i'm going to rest for today. i'll do my best to work out blur starting tomorrow morning.
+}
+
+08:06:00 - wednesday - 2022/06/15
+{
+    feeling a bit aprehensive about blur, but still going to push on.
+}
+
+11:33:00 - wednesday - 2022/06/15
+{
+    worked through blur slowly and methodically, breaking down bigger problems into smaller problems and what seemed to be
+    quite a difficult problem to solve wasn't so bad in the end?
+
+    learned today about the continue; function, which is basically the opposite of break; and proved very useful in
+    the problem solving process.
+
+    all that isn't to say i didn't have errors when compiling that i had to route out.
+
+    there were a few variables who weren't collecting and saving values as they should have, which i'm guessing
+    to be an error in scope with regards to the for loops that were using the variables.
+
+    excited to move on to getting recover set up!
+}
+}
+End time: 11:45:00 - monday - 2022/06/15

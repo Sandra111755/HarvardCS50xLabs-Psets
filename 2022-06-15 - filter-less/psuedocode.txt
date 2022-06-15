@@ -1,0 +1,116 @@
+--------------------------------------------
+
+typedef struct
+{
+    BYTE  rgbtBlue;
+    BYTE  rgbtGreen;
+    BYTE  rgbtRed;
+} __attribute__((__packed__))
+RGBTRIPLE;
+
+--------------------------------------------
+
+RGBTRIPLE temp[height][width];
+
+height = image height
+width  = image width
+
+--------------------------------------------
+
+Pseudocode:
+
+
+// Convert image to grayscale
+void grayscale(int height, int width, RGBTRIPLE image[height][width])
+{
+    for height i
+    for width j
+
+    initialize int sum to hold sum of BGR values
+    pass as a value to each blue green and red pixel, the rounded value of sum / 3.0
+    return;
+}
+
+// Convert image to sepia
+void sepia(int height, int width, RGBTRIPLE image[height][width])
+{
+    for height i
+    for width j
+    if sepiacolors > 255 then = 255
+    initialize variables for sepia red, green and blue using provided formulas
+    set original colors to rounded sepia colors
+
+    return;
+}
+
+// Reflect image horizontally
+void reflect(int height, int width, RGBTRIPLE image[height][width])
+{
+
+    RBGTRIPLE temp;
+    for int height i
+        for int width j / 2
+
+        temp = image[i][j]
+
+        image[i][j] = image[i][width - (j + 1)]
+
+        image[i][width - (j + 1)] = temp
+
+return;
+}
+
+// Blur image
+void blur(int height, int width, RGBTRIPLE image[height][width])
+{
+
+initialize RGBTRIPLE variable for temp image
+
+    check every pixel
+
+    for height i
+        for width j
+
+        initialize int variables for sumblue sumgreen and sumred
+        initialize float counter for valid pixels
+
+        check around every pixel
+
+        for x - 1; x < 2
+            for y - 1; y < 2
+
+            passes current selected pixel values into a variable
+
+            int currentpixelx = x + i
+            int currentpixely = y + j
+
+            check validity of current pixel value
+
+            if currentpixelx < 0 || currentpixelx > height - 1 || currentpixely < 0 || currentpixely > width - 1
+            continue
+
+            sum valid currentpixelx and currentpixely of image and add to counter of valid pixels
+
+            sumblue += image[currentpixelx][currentpixely].rgbtBlue
+            sumgreen += image[currentpixelx][currentpixely].rgbtGreen
+            sumred += image[currentpixelx][currentpixely].rgbtRed
+            counter++
+
+        pass the value of the average of the rounded sum of the blue green and red colors (using the counter) into RGBTRIPPLE temp
+
+        temp[i][j]rgbtblue = round(sumblue / counter)
+        temp[i][j]rgbtgreen = round(sumgreen / counter)
+        temp[i][j]rgbtred = round(sumred / counter)
+
+copy blurred temp image to original image
+
+for height i
+    for width j
+
+    image[i][j] = temp[i][j]
+
+    return;
+}
+
+
+
