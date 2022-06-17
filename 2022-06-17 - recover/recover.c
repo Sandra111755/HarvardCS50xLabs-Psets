@@ -5,17 +5,17 @@
 typedef char FILENAME[8];
 typedef uint8_t BLOCKSIZE[512];
 
-    // initialize image counter for sprintf
-    int imagescounter = 0;
+// initialize image counter for sprintf
+int imagescounter = 0;
 
-    // initialize array of 8 chars for storing file name structure
-    FILENAME fname;
+// initialize array of 8 chars for storing file name structure
+FILENAME fname;
 
-    // initialize a file pointer for output files
-    FILE *outpointer = NULL;
+// initialize a file pointer for output files
+FILE *outpointer = NULL;
 
-    // initialize array of unsigned integers of size 512 bytes for buffer for storing the read data
-    BLOCKSIZE buffer;
+// initialize array of unsigned integers of size 512 bytes for buffer for storing the read data
+BLOCKSIZE buffer;
 
 int main(int argc, char *argv[])
 {
