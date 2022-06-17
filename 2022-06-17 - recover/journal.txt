@@ -1,0 +1,75 @@
+Start time: 12:36:00 - wednesday - 2022/06/15
+{
+    {
+        just starting recover.
+        a cursory glance tells me i'm going to enjoy delving into solving it,
+        i'm going to get started on my objectives then a bit of psuedocode
+    }
+
+    {
+        after having gone over the objectives, recover seems to be complex in it simplicity, which can be quite deceiving.
+        i look forward to putting time into solving it.
+    }
+
+    14:54:00 - wednesday - 2022/06/15
+    {
+        after having gone through all of the literature and the brief walkthrough video on recover on the cs50x website,
+        i have a much better idea of what to do and what is expected.
+
+        i will be organizing my notes/psuedocode starting tomorrow. i want to take the time to digest what i've
+        written with filter-less/blur and with all the information i've read about recover, my mental strength levels
+        are feeling heavily drained at the moment so i believe resting here is appropriate.
+    }
+
+    9:14:00 - thursday - 2022/06/16
+    {
+        i realize a bit late that i forgot to write at the start of my day.
+        i've taken to writing stuff out on paper for recover as i did with tideman. i'm approaching it in such a way that
+        i'm trying to plan out a bit before just diving right into the coding. i am trying my best to apply what i'm reading
+        about and listening to, about clean code and readability. it is quite relative, though in most cases it's clear
+        what is and isn't clean code.
+        at any rate, i'm currently in the middle of deciphering how " .h" and extra " .c" files work within the context of recover.
+        back to it.
+    }
+
+    11:40:00 - thursday - 2022/06/16
+    {
+        i'm having a bit of a hard time wrapping my head around all things pointer related,
+        even having gone over materials from several locations online about them.
+        i'm guessing that much like most other things programming related, i just have to keep at it and it'll click eventually.
+    }
+
+    16:36:00 - thursday - 2022/06/16
+    {
+        so after a very long day, a LOT of trial and error, deletion of a lot of excessive text in the code,
+        and a mix up in logic that was leading to quite a bit of frustration i managed to finish recover!
+
+        i learned a lot. mostly about how just because you can make things like structs that it's not always
+        the best choice.
+        it was a lot harder to read than just scaling the entire thing back like i did by the end.
+
+        i'm having issues with scope as it regards to variable storage,
+        but am able to identify those issues pretty quickly when something pops up.
+        hard to imagine but perhaps a bit more planning before action is required?
+        will see how the next weeks problem set goes once i get there.
+
+        i'm going to give my brain a rest for today and clean up the code and my psuedocode a bit tomorrow.
+
+        also. i learned that if you're going to write low level psuedocode, you should include brackets
+        so that you don't screw them up later trying to figure out what is going wrong hahaha.
+    }
+
+    17:40:00 - thursday - 2022/06/16
+    {
+        couldn't resist finishing organzing the .c file for recover. i'll finish the psuedocode txt file tomorrow.
+        i'm really enjoying this.
+    }
+
+    08:34:00 - friday - 2022/06/16
+    {
+        just finished up reorganizing recover stuff(s) and once i submit it i'm on to week 5.
+        it's kind of intimidating knowing that i've still only scratched the surface of learning
+        how to code and how things all fit together as far as programming goes.
+        i'm excited to see where i will end up going down this road...
+    }
+}

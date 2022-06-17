@@ -1,0 +1,46 @@
+-----------------------------------------------
+
+original psuedocode that was trimmed down and rearranged in the working version.
+
+if you download the folder and run the program on card.raw, it will extract all the jpg files from it.
+
+-----------------------------------------------
+
+main
+
+//ensures argument count
+    if argc != 2
+
+//open .raw(input) file
+    FILE *inpointer = fopen(argv[1], "r");
+    if inpointer == null
+    printf could not open %s, inpointer
+    return 1
+
+    //loop until eof
+        BLOCKSIZE buffer;
+        while (fread(&buffer, sizeof(buffer), inpointer) == sizeof(buffer))
+
+            //initialize variable to store and read inpointer header
+
+            JPGFILEHEADER jpg;
+            fread(&jpg, sizeof(JPGFILEHEADER), 1, inpointer));
+
+            if ( jpg.jpgFirst == 0xff && jpg.jpgSecond == 0xd8 && jpg.jpgThird == 0xff &&
+                (jpg.jpgFourth & 0xf0) == 0xe0 )
+
+                //allocate memory for file name
+                //sprintf to name the files incrementally by 1
+                    FILENAME fname;
+                    sprintf(fname, "%03i.jpg", 1);
+
+                //open output file
+                    FILE *outpointer = fopen(fname, "w");
+
+                    if (outpointer != NULL)
+
+                    fwrite(&buffer, sizeof(buffer), 1, outpointer)
+
+    fclose(inpointer);
+    fclose(outpointer);
+    return 0;
