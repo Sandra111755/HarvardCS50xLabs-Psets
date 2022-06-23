@@ -1,0 +1,22 @@
+10:05:00 - thursday - 2022/06/23
+{
+    {
+        just finished setting up for the lab and gone over everything,
+        still trying to wrap my head around what this lab is asking for.
+    }
+
+    10:30:00 - thursday - 2022/06/23
+    {
+        upon further review, i have a much better understanding of what it is asking for but it's still going to take me a bit to finish.
+    }
+
+    11:09:00 - thursday - 2022/06/23
+    {
+        okay i'm pretty sure i finished that lab *really* fast and it shows all smiles...
+
+        given the knowledge we were presented with the file already and the helpful way it's presented and written it wasn't nearly as
+        bad as i thought it was going to be.
+
+        i don't have the time to get set up for the problem set. I'll have to check on it after i take care of my appointments.
+    }
+}
