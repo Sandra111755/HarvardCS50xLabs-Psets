@@ -1,0 +1,28 @@
+{
+    12:58:00 - wednesday - 2022/06/22
+    
+    {
+        after having started the day bright and early at 8am, i just finished the lecture. today was spent mostly learning about binary
+        search trees, hash tables/functions and also included finishing up linked lists and a section on trie(s) (pronounced try)
+	it was interesting seeing all different sorts of data structures and learning their positives and negatives.
+
+        i'm going to take a short break before starting on the shorts videos, cause every little bit of focused knowledge helps and 
+        at the very least a refresher isn't a bad thing.
+    }
+
+    14:18:00 - wednesday - 2022/06/22
+    
+    {
+        just finished up in the kitchen. i decided to have dinner early and cleaned up a bit as well.
+	back to it.
+    }
+
+    18:13:00 - wednesday - 2022/06/22
+
+    {
+	finished for the day.
+	i managed to make it through the rest of the lecture and all but two of the shorts. i look forward to tackling the last
+	videos tomorrow and diving head first into the lab and problem set.
+	for now though i'm going to rest.
+    }
+}

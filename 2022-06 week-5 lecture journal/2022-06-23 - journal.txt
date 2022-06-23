@@ -1,0 +1,17 @@
+{
+    7:15:00 - thursday - 2022/06/23
+    {
+	starting a bit early today as i have an eye exam and a telehealth appointment that i have to attend.
+	i can see, read, and drive just fine but that's just my opinion, i'm not a doctor haha.
+	keeping on top of things like vision is important and at the very worst i end up getting glasses? 
+	that's not really a big deal for me... 
+	at least i'd get to pick out some nice frames :D
+    }
+        
+    9:07:00 - thursday - 2022/06/23
+    {
+	just finished the rest of the shorts, they were quite informative as far as delving a bit deeper into the concepts
+	of singly-linked lists, doubly-linked lists, hash tables and tries.
+	i'm going to set up for the lab and put some work into it.  
+    }
+}
