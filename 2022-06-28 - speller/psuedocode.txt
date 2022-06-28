@@ -1,0 +1,105 @@
+----------------------------------------------------------------------
+
+// Loads dictionary into memory(data structure(hash table)), returning true if successful, else false
+bool load(const char *dictionary)
+{
+
+    FILE *file = fopen(dictionary, "r");
+
+    if (file == NULL)
+    {
+        printf("Not enough memory to open %s\n", dictionary);
+        return false;
+    }
+
+    while(fscanf(file, "%s", word) != EOF)
+    {
+        node *n = malloc(sizeof(node));
+        if (n == NULL)
+        {
+            printf("Not enough memory to allocate node");
+            return false;
+        }
+
+        strcpy(n->word, word);
+        wordcounter++;
+        hashvalue = hash(word);
+        n->next = table[hashvalue];
+        table[hashvalue] = n;
+    }
+
+    free(file);
+    return true;
+}
+
+// Hashes word to a number (case insensitive)
+unsigned int hash(const char *word)
+{
+
+    /* used given information as inspiration
+       iterates the length of the word, adds the ASCII values of each letter to hashvalue
+       returns the hashvalue modulo the number of buckets(N) to ensure the words stay within
+       the boundary of the amount of buckets
+       */
+    for (int i = 0, length = strlen(word); i < length; i++)
+    {
+        hashvalue += tolower(word[i]);
+    }
+    return hashvalue % N;
+
+}
+
+// Returns number of words in dictionary if loaded, else 0 if not yet loaded
+unsigned int size(void)
+{
+    if wordcounter > 0
+    return wordcounter
+
+    return 0
+}
+
+// Returns true if word is in dictionary, else false: case insensitive
+bool check(const char *word)
+{
+
+    hashvalue = hash(word);
+
+    node *travpointer = table[hash_value];
+
+    while (travpointer != NULL)
+    {
+        if (strcasecmp(word, travpointer->word) == 0)
+        {
+            return true;
+        }
+        else
+        {
+            travpointer = travpointer->next;
+        }
+    return false;
+}
+
+// Unloads dictionary from memory, returning true if successful, else false
+bool unload(void)
+{
+
+    for( int i = 0, i < N; i++)
+    {
+        node *indexpointer = table[i];
+
+        while(indexpointer != NULL)
+        {
+            node *travpointer = indexpointer;
+
+            indexpointer = indexpointer->next;
+
+            free(travpointer);
+        }
+
+        if (indexpointer == NULL && i == N)
+        {
+            return true;
+        }
+    }
+    return false;
+}

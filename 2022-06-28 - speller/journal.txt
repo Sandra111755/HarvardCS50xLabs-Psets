@@ -1,0 +1,104 @@
+{
+    16:54:00 - thursday - 2022/06/23
+    {
+        i've gotten the files and gave a preliminary glance at problem set 5 and it looks like it will be difficult but
+        also technically stimulating to work on. i look forward to being able to put more time into it, but for now
+        i'm going to rest because my vision is still kinda blurry and the eye strain i'm suffering at the moment
+        is fairly heavy.
+    }
+
+    10:10:00 - friday - 2022/06/24
+    {
+        i cleaned up the house a bit, did some dishes and whatnot to help out.
+        my eyes have since re-adjusted and are no longer fuzzy (for the most part), but
+        i still ended up getting a prescription for glasses owing to a slight astigmatism in my left eye.
+        i haven't gotten the glasses just yet, i've been told there is a chance for a discount from a family
+        member who works as an optician.
+        will see.
+        i'm excited to see whats what with speller. off to it.
+    }
+
+    12:04:00 - friday 2022/06/24
+    {
+        i believe i have all the variables i'll need in the psuedocode.txt file, i haven't gone over the videos in the speller
+        page on cs50x yet but i plan to.
+
+        i'm finding it a bit hard to concentrate. i've been in contact with my stepfather and my mother was taken to the
+        hospital by ambulance the other day cause she was having trouble breathing.
+        thankfully not long after she arrived the doctors discovered she had pnuemonia,
+        fluid around her heart and was having issues with her kidneys.
+        all these things on top of which, she's on blood thinners.
+        they had to intubate her to aid in her breathing, and recently sedated her so they could safely perform a perdicardial
+        effusion to remove the fluids that had built up around her heart.
+        in an effort to ground him i've been talking my stepfather through it cause he's *really* worried, but it doesn't
+        leave me room to worry openly. i'm told my brother remains pensive as ever, just waiting to see what will
+        happen in a reserved but concerned manner, and trying not to worry himself or my stepfather more than nescessary.
+
+        i'm worried that because she chooses to live her life the way she does (always following that dopamine rush from
+        everything easy(food, nicotine, etc...) in an effort to medicate herself from the pain of the choices she's made,
+        the life she's experienced and also her upbringing by someone borderline narcissistic, but definately also had BPD)
+        that she will lead herself to a much earlier grave than ever nescessary.
+        i can't fault her for chosing the path she has considering the life she's had, the only thing i can do is not
+        end up the going down the same route as her.
+        i havent seen her in years because of covid, and also owing to me setting my own personal boundaries with her
+        (she has/had a habit of holding on way too tight, owing to the "unconditional love" aspect of a parent/child
+        relationship and using that feeling of love to aid in her self-medication)
+        i'm not arrogant enough to assume i could have "fixed" her, but maybe the knowledge could have helped in some other way.
+        as it stands i've only tried enacting the change of having healthy interaction boundaries. it took her years
+        to be okay with it and i'm still not sure she fully understands why i would choose to ask for space.
+        i know she has a therapist, and maybe she talked with them about it all and worked it out, but i really don't know.
+
+        all that said... as bad as she can be, i hope that she gets better... cause she is my mother and my optimistic side thinks
+        that maybe she'll turn herself around and bust out of the cycle shes carved out for herself.
+        only time will tell.
+    }
+
+    8:29:00 - monday - 2022/06/27
+    {
+        getting started a little late today. my plan is to go over the videos and all my notes and make a dent in speller.
+    }
+
+    1:12:00 - monday - 2022/06/27
+    {
+        i've progressed a bit today i think. i delcared all my variables and libraries needed and
+        i believe i've finished the load and size function to spec, that remains to be seen though.
+
+        i'm struggling a bit with improving the hash function. i'm going to take a break and have something to eat
+        to clear my head.
+    }
+
+    16:45:00 - monday - 2022/06/27
+    {
+        i thought i was getting somewhere with the hash function but it appears not.
+        i'm going to step away for now and come back to it in the morning with fresh eyes and a fresh mind.
+    }
+
+    08:28:00 - tuesday - 2022/06/28
+    {
+        just got back from taking my car in for repair. i've been fortunate enough to be able to devote my time
+        fully towards programming/coding; it hasn't left me with much in the way of extra money for repairs and whatnot.
+        i cashed out what little i had in my 401k from my time with wholefoods so i could continue on the path
+        i've been going down without interruption. i'm hoping that it will be a worthwhile thing to have done. will see.
+    }
+
+    12:04:00 - tuesday - 2022/06/28
+    {
+        i finished up speller this morning. i've tried a little bit to improve my times with regards to how fast stuff is processed,
+        but can't really afford to spend a lot of time on it.
+        my hash function (inspired from the information given, and the video short on hash tables), is kinda garbage, but performs
+        okay (with enough buckets). i hope it is acceptable.
+
+        there were several issues that i had upon initially compiling my code but the few notable issues were as follows.
+        i ran into an issue with memory scope as it pertains to the sum of the ascii values in the hash function.
+        i accidentally free'd a file i meant to fclose when using fopen on the dictionary
+        in the unload function i used the constant N and forgot that since index's are zero-based, that i needed to set
+        the value i was measuring to N - 1 to indicate the end of the list of buckets.
+
+        once i cleared those up and a few other little things here and there i got all smiles accross the board.
+
+        after everything was finished i tried modifying the hash function and/or the number of buckets a bit just to see if i could
+        reduce my time. unfortunately i could only reduce it so much, even with the number of buckets set to 456,976 (which is
+        obscenely excessive considering there is only 143,000 some odd words in the entire large list).
+        the time drop between 17,576 and 456,976 buckets is *suprisingly* small given how much of an increase in memory it is.
+    }
+}
