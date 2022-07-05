@@ -1,0 +1,23 @@
+{
+    2022-07-01 - friday - 8:51:00
+    {
+	i hope to be able to finish the lecture today. 
+	writing all pertinent information down certainly makes getting through them take longer, 
+	but it's also true that there have been studies that show that writing down information by hand helps 
+	increase the retention rate by quite a lot. 
+    }
+
+    2022-07-01 - friday - 15:17:00
+    {
+	i took a break about halfway through my day to install our air conditioners, and to make dinner.
+	that took about an hour and after that i got right back to the lecture.
+	i managed to finish the lecture today and got through some of the "shorts" video on python, which is 39 minutes 
+	and explains a lot of the syntax and structures comparing C to python directly with a code by code comparison.
+	i find examples like that help my understanding of the syntax and how things are used quite a bit.
+
+	i'm gonna stop for the day as i'm still not feeling well mentally or emotionally, but i'm also proud of
+ 	how much i accomplished today. 
+	
+	until next time.
+    }
+}

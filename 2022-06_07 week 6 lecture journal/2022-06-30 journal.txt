@@ -1,0 +1,23 @@
+{
+    2022/06/30 - thursday - 8:46:00
+    {
+	a bit of a late start today.
+	i am currently in the midst of (some of?) those consequences i wrote about yesterday. 
+	these next couple weeks are going to be emotionally and mentally difficult on a variety of levels.
+	i however still need to seriously keep at the coding thing regardless of how i'm feeling.
+    }
+
+    2022/06/30 - thursday - 14:28:00
+    {
+	still not 100%. decided to stop a bit early cause i'm feeling mentally exhausted.
+	i did manage to follow and absorb over an hours worth of the lecture. the similarities and 
+	differences between python and C are extremely interesting, i.e what python handles automatically 
+	compared to what you have to define yourself in C. 
+	E.g strings in python are immutable, meaning you are unable to modify them without making a copy first
+	then modifying that copy. whereas in C you are free to change and move and copy as you see fit.
+
+	i think i'm going to go outside, set up my target and get some exercise throwing knives.
+
+	i'll continue on my journey tomorrow.
+    }
+}

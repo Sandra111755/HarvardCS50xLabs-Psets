@@ -1,0 +1,29 @@
+{
+    2022-07-05 - tuesday - 8:06:00
+    {
+	today's gonna be a bit lacking as far as progress made goes, i've been asked to run an errand around 9am and
+	will have to pick up my partner around 4 ish.
+	regardless, i expect to finish the rest of the shorts video and make some progress into problem set 6.
+	i'm looking forward to starting to program with python.
+	as much as i like the ordered syntactical nature of C, the complex-simplicity of python and how it's written
+	very much appeal to me at this point in my journey.
+	it remains to be seen if that will be the case once i am writing with it.
+	i'm also looking forward to what css, html and javascript have to offer and am excited to see what i'll be 
+	able to produce with those languages.
+
+	as an aside, my weekend was really blah mood-wise.
+	i did end up making an eggplant parmesan calzone (with spaghetti inside), which was fun to eat.
+	i don't expect i'll make it again however, simply because the added spaghetti didn't really add much to
+	it beyond a little bit of flavor that was mostly overpowered by the eggplant and cheese.
+	it was interesting for what it was though, and came out looking fantastic. 
+    }
+
+    2022-07-05 - tuesday - 12:38:00
+    {
+	just finished up with the shorts video, there was a suprising amount packed into a relatively short video 
+	that was only 39 minutes-ish long.
+	
+	i'm going to jump into the problem sets to get a feel for python, so i have a better handle on the lab itself.
+    }
+
+}

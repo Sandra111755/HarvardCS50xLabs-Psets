@@ -1,0 +1,20 @@
+{
+    2022-06-28 - tuesday - 16:37:00
+    {
+	
+	i just got back from picking my car up, it cost me $825 to fix quite a few mechanical issues with the car, but even with that 
+	i'm afraid it's only just the tip of the iceberg since the car is a 2005 and has 172,000 odd miles on it.
+	i'm hoping beyond hope that if and when i can bring it back in that the majority of the other issues can be dealt with 
+	appropriately. 
+	as an aside i'm glad to have it back and happy that it's driving smoother.
+
+	i managed to make it 18 minutes and 20 seconds into the week 6 lecture and just finished the syntax comparison 
+	between Scratch, C and Python. 
+	it is *very* satisfying to see how python is structured and how the syntax is organized and written.
+	i expect there will be minor issues with syntax (mostly not rememebering to remove the semi-colon, and not remembering to 
+	add the colon) while coding in python but that remains to be seen.
+
+	as for the rest of today, i'm going to relax and start fresh tomorrow morning.
+    }
+
+}
