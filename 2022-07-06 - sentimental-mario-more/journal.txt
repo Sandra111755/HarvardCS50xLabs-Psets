@@ -1,0 +1,42 @@
+{
+    2022-07-05 - tuesday - 17:16:00
+    {
+        i managed to finish both sentimental-hello and sentimental-mario-less today.
+        coding in python feels like there are so many more ways to solve a given problem compared to C. it sounds kind of
+        intimidating in theory, but feels really great in practice.
+
+        E.g.
+        i was working on a way to solve sentimental-mario-less given their parameters and came accross the reversed function for range(),
+        which will iterate in reverse (functionally decrementing). In combination with concatenating with the print function, i managed
+        to figure out a way to print out the appropriate spaces and hashes!
+
+        This, alongside figuring out how to impliment a a functionally similar Do...While loop with a While True: loop, breaking and
+        returning if it was the correct numbers or continuing if it wasn't.
+
+        i feel quite accomplished in how i managed to stick with the problems and work them out in a combination of logical thinking,
+        searching the python docs website (through google), and a double dose of effort.
+
+        i'm going to break for the night once i upload my files to my public repo and start sentimental-mario-more in the morning.
+
+        until then.
+    }
+
+    2022-07-06 - wednesday - 8:55:00
+    {
+        a little late start owing to having to handle a few things.
+        excited to jump into sentimental-mario-more.
+    }
+
+    2022-07-06 - wednesday - 10:40:00
+    {
+        just finished sentimental-mario-more.
+        i ran into issues with the print function all of a sudden not printing the hashes and code that worked yesterday not working today.
+        i restarted my computer, updated everything, and rebuilt the container for the workspace and it still didn't work.
+        i set about and narrowed it down to the way i was using concantenation and tried quite a few different methods to fix it,
+        but in the end what it took to fix it was simply switching the variable names around... i couldn't do anything but laugh.
+        i'm guessing it only worked yesterday (repeatedly, mind) out of a fluke of luck. i updated mario-less and resubmitted it
+        just because, then submitted mario-more.
+        if i run into something like this in the future, i'll remember this lesson for sure haha.
+        off to set up for and start sentimental-cash.
+    }
+}
