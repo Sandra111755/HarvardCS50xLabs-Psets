@@ -1,5 +1,4 @@
 # Imported get_int function from cs50 library
-
 from cs50 import get_int
 
 # Defined main to print out a left-aligned pyramid using the height variable as input
@@ -8,13 +7,11 @@ from cs50 import get_int
 def main():
     height = getheight()
 
-    # Uses a combination of the reversed range function with nested for loops and
+    # Uses a combination of the reversed range function with a for loop and
     # print concatenation to print out the spaces and hashes appropriately
-    
+
     for spaces in reversed(range(height)):
         print(" " * spaces, end="")
-        for hashes in range(spaces + 1):
-            print(end="")
         print("#" * (height - spaces))
 
 # gets height with enforced limits on user entered numbers
