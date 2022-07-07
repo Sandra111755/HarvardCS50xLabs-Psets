@@ -1,0 +1,21 @@
+ask for change owed
+
+def main():
+    print
+
+getfloatdollars
+    enforced user input with get_float
+        == 0.50 dollars
+
+    minimumcoins
+
+        calculatequarters
+
+        calculatedimes
+
+        calculatenickels
+
+        calculatepennies
+
+main()
+return minimum number of coins

@@ -1,0 +1,68 @@
+{
+    2022-07-06 - wednesday - 12:00:00
+    {
+        preliminarily played around with some ideas for cash.py that didn't seem to be working for me.
+        i have noticed that i am thinking more in terms of C instead of python, i have to just keep at it to train my brain.
+        i'm going to write a bit of pseudocode after i grab something to eat and see if that helps me organize my thoughts.
+    }
+
+    2022-07-06 - wednesday - 16:05:00
+    {
+        i ended up getting heavily distracted today. going from making dinner to a therapist appointment has left my brain kinda frazzled.
+        semi-related news. i picked up a few notebooks that will be for python, sql, javascript, html and css stuff.
+        the idea being i study the languages by watching videos about them, and take hand-written notes to increase
+        retention, and being better able to navigate each as i'm required to.
+
+        i also made a purchase that i hope will be as useful, juggling beanbags.
+        i went with the beanbags cause i did a little research about juggling and it seems that they are quite a bit better than other
+        options, especially when you're just starting out? will see.
+
+        i made the purchase because i've read that there have been scientific studies that juggling increases white matter in the brain,
+        which are what the connections are made of? i'm a tad rusty on my bio science as it's related to human bodies and brain matter haha.
+        it sounded interesting, and if it helps my coding ability as i expect it would thats great
+        but at the very least i'd have developed a fun new skill and that isn't bad in my eyes.
+
+        i also have a very important personal conversation that is going to happen tomorrow that is taking up a lot of brain space
+        at the moment. i hope it goes well.
+
+        for now i'm going to clean up and clear my head.
+    }
+
+    2022-07-07 - thursday - 8:57:00
+    {
+        that conversation happened last night, much sooner than expected. i'm glad i was awake at the time to receive and
+        respond and was heard. it was a pretty tough. i am fortunate to say that though in spite of there being a
+        long road to a full recovery ahead, that i'm grateful all is well (if a bit shaky)
+        and i-we will happily traverse the length of that road.
+        that personal relationship means a lot to me, and i'm glad to have them in my life.
+    }
+
+    2022-07-07 - thursday - 12:23:00
+    {
+        just finished up writing out working code for sentimental-cash.py and am thrilled that i was able to finish it today.
+        i tried looking up all sorts of help with regards to floating point imprecision, and the decimal module.
+        the decimal module looked like it was a great way to handle the issues regarding floating point imprecision, but i didn't
+        end up using it in my solution like i thought i would.
+        i kept running into error after error trying to fit my code around the module just trying to work it all together,
+        but took a bit of a pause and did a soft reset of my brain and my thought process to consider simpler options.
+        i decided to just mitigate the floating point imprecision by multiplying the input number by 100 and changing the math
+        that calculated the number of coins to whole numbers and that did the trick!
+
+        i was super excited when i seen all those smiles in the terminal.
+
+        i'm going to take a break and make dinner to relax and clear my head a bit, then come back and refactor the code as best i can.
+        it doesn't look or read bad but if i can improve it before submitting it, i would prefer to do that.
+        that and i have to comment out all pertinent information so myself and others are able to understand it down the road.
+    }
+
+    2022-07-07 - thursday - 15:48:00
+    {
+        after a bit of back and forth with cash.py i decided against a full refactor for the moment and just cleaned up
+        a little of how it was put together to make it a little tighter presented but still very readable and understandable.
+        i don't want to spend too much time on something if i can help it considering the amount of work still ahead of me.
+
+        i am quite pleased with how it turned out overall.
+
+        i'm going to get setup for sentimental-credit and probably start on it in the morning. until then.
+    }
+}
