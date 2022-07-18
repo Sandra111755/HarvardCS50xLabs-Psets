@@ -1,0 +1,40 @@
+american express 15 digits starts with 34/37
+mastercard       16 digits starts with 51, 52, 53, 54, or 55
+visa          13/16 digits starts with 4
+
+Luhn’s Algorithm
+
+    Multiply every other digit by 2, starting with the number’s second-to-last digit, and then add those products’ digits together.
+
+    Add the sum to the sum of the digits that weren’t multiplied by 2.
+
+    If the total’s last digit is 0 (or, put more formally, if the total modulo 10 is congruent to 0), the number is valid!
+
+
+378282246310005
+371449635398431
+AMEX
+
+5555555555554444
+5105105105105100
+MASTERCARD
+
+4111111111111111
+4012888888881881
+VISA
+
+1234567890
+INVALID
+
+--------------------------------------------------
+prompt user for card (get_int/ get_string) ("Number: ")
+
+validate card using luhns algorithm return true or false
+
+check whether card is AMEX, MASTERCARD, VISA OR INVALID.
+
+print credit card name or invalid in capitals with a new line characters
+
+
+
+

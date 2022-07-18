@@ -1,0 +1,71 @@
+{
+    2022-07-07 - thursday - 16:14:00
+    {
+        have my objectives and specifications all set. i will be digging into sentimental-credit heavily tomorrow, both
+        before and after my dental appointment (need a filling). i hope it goes well.
+        i'm going to be taking a train into the city for it, and that's always an enjoyable experience outside of rush hour hahaha.
+
+        until tomorrow.
+    }
+
+    2022-07-08 - friday - 11:38:00
+    {
+        just got back in from my dental appointment and am happy to report that my broken tooth has been fixed.
+        i'm currently studying up on regular expressions and their use in credit.py and am expecting myself to successfully impliment
+        the re module and it's methods to help in solving the problem before me.
+
+        i could of course simply just do the math as i did in credit.c, but i believe it will be more beneficial for me in the long run
+        to learn about and apply what i have learned about regular expressions.
+
+        i have some notebooks coming today and i expect to fill them with knowledge about python, sql, css, js and html.
+
+        it's exciting to know that the juggling beanbags that i ordered have shipped. whether it helps me in my journey of
+        coding or not remains to be seen, but at the very least it will be a fun skill that i can practice in the house.
+    }
+
+    2022-07-08 - friday - 13:30:00
+    {
+        as the anesthetic for my teeth have worn off i have found i'm more unable to focus because of the pain
+        and dull persistent ache of getting them worked on.
+        i've watched a few videos on the re module and it is fascinating in how it operates, and it also makes me realize how little i know
+        about python itself. yes it's true i have gone over syntactical basics compared to C in the previously watched lecture, but
+        i'm feeling kind of similar to how i felt when i first started C.
+        in other words i feel like i'm being expected to build a house before i even know what tools i have available to me, and what
+        building standards to follow. the remedy for such a thing being that i'm very likely going to take a pause from cs50 and
+        study up more on python and all that it has to offer (officially anyways) before coming back to it.
+    }
+
+    2022-07-12 - tuesday - 16:55:00
+    {
+        back from studying up a bit! just finishing up for the day. I have a preliminary idea of how i'd like credit.py to operate
+        but will see.
+        i'm going to study a bit more tomorrow when i have the chance and put more work into finishing credit.py, but i have
+        an appointment to get glasses at 9:30am in the city that i definitely don't want to miss.
+        i found out that my juggling beanbags were shipped today from canada, they should arrive on the 19th. fingers crossed!
+
+        i'm gonna pack up for the day and relax a bit before getting some sleep. until tomorrow!
+    }
+
+    2022-07-18 - monday - 8:52:00
+    {
+        trying to get my car fixed unsuccessfully. the mechanic has been very busy lately and been down the help he needs. i'm hoping to
+        be able to get it in to be looked at and or fixed sometime this week.
+
+        as an aside, i've not been well lately. i'm working my way through a serious breakup with someone that means quite a lot to me.
+        i haven't been able to gather the focus nescessary to put more effort into the problem sets i've been working on the passed few days.
+        i'm going to work at them more today and moving forward because i must, and because i feel i am able to put forth
+        the mental energy required at the current time.
+        i will miss what we shared...
+    }
+
+    2022-07-18 - monday - 2:05:00
+    {
+        just finished credit.py.
+        i tried my best to retain full modularity between the functions i created while also including the use of regular expressions.
+        i was having a real hard time with the regular expressions not returning when they matched a certain pattern but
+        through the process of trial and error i managed to figure out a method to get the code working as it should.
+        thankfully...
+
+        i submitted it and am going to get setup for readability.py before making dinner.
+    }
+}
