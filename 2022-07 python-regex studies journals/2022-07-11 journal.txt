@@ -1,0 +1,19 @@
+{
+
+    2022-07-11 - monday - 7:28:00
+    {
+	just now able to write but i'vebeen at the studying since yesterday.
+	i'm researching and taking notes on functionalities and how those compare to what i learned for C.
+	"python does it for you" seems like a very apt description for the language itself.
+	
+	i spent yesterday taking notes about string basics and methods used with strings, as well as learning about
+	the arithmetic and comparison operators.
+	
+	i was up early doing laundry so once i got home and cleaned up a little bit i started on lists, tuples and sets.
+	i plan on making my way through all the basics stuff and syntax of it all just to get a better handle on the
+	language, and also plan on gaining a better understanding of OOP in general from those studies.
+	
+	back to it.
+    }
+
+}

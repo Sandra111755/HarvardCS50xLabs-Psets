@@ -1,0 +1,43 @@
+{
+    2022-07-12 - tuesday - 7:37:00
+    {
+	early start today. i was really exhausted by the end of yesterday (around 16:00 hours), so i didn't end up 
+	writing a closing journal entry. i made it through several topics including lists, tuples and sets, dicts,
+	conditionals and booleans, loops and iterations, and functions.
+	i feel a lot more familiar with the above topics and their functionalities.
+	i was introduced properly to the concept of slicing, some of the methods that sequences(strings, lists, tuples)
+ 	have to be modified and/or sorted, given a nice refresher on syntax and how code is written in python compared
+	to C, a primer on function creation and how the functions interact with other functions, and the concept of 
+	*args and **kwargs(which is a way functions accept arbitrary amounts of arguments instead of singular arguments).
+
+	i'm looking forward to today which starts with the creation and importing of custom modules.
+	off to it.
+    }
+
+    2022-07-12 - tuesday - 8:27:00
+    {
+	thinking on this after having gone over the creation and importing of custom modules... it feels a bit foolish
+	to go over the entirety of python when i feel myself leaning towards front-end languages such as css, javascript
+	and html.
+	i'll finish my studying about importing modules (which also includes a primer on setting the path in mac/windows)
+	and switch to understanding regular expressions in python so i'm able to complete credit.py as per suggestion.
+	regex seems quite in depth and *very* powerful in what it offers, so it should take awhile.
+	i don't want to mire myself down in studies. i will end up understanding everything in the moment but 
+	just because of the sheer amount of information there will be stuff that i forget.
+	this decision comes from my desire to maintain the balance of staying productive versus wanting to take in all 
+	the information and knowledge that i can to gain a deeper understanding of all that is software development.
+
+	back to it.
+    }
+
+    2022-07-12 - tuesday - 15:08:00    
+    {
+	i was really excited to get into regular expressions and understanding them. i ended up spending the majority of
+	my day on learning and taking notes about all they have to offer. i also learned about the functionalities that
+	slicing lists and strings.
+	regex seemed daunting to learn about at first, and while there is a ton of information, it's mostly learning 
+	what the meta characters, anchors, quantifier do and how to apply them to do what you need them to do.
+	i believe i understand how i'm to use the re module to solve the credit.py problem, but you never know.
+	i could end up mentally blocked but heres hoping that isn't the case, hahaha. 
+    }
+}
