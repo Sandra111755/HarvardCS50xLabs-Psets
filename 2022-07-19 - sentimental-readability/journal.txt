@@ -1,0 +1,28 @@
+{
+    2022-07-18 - monday - 2:39:00
+    {
+        just finished getting set up for readability.py.
+        i'm hoping it will be as straightforward as it was completing it previously. i'm also wondering if the application of regex
+        to the problem would be as beneficial as it was with credit.py.
+
+        i will likely try to impliment it, but for now i'm going to go make dinner.
+    }
+
+    2022-07-19 - tuesday - 13:00:00
+    {
+        i took some time out today to clean and reorganize the kitchen as it was a bit cluttered, dusty and the floor was filthy.
+        sitting down in an air conditioned room as i am now feels amazing after putting forth such an effort in cleaning up the place.
+        i also got ready some stuff that needed baking; oatmeal (cranberry)craisin cookies, banana bread and am going to attempt a type of
+        scone tomorrow.
+        i spent all the time today doing that and still my mind was knee deep in readability.py
+
+        off to it.
+    }
+
+    2022-07-19 - tuesday - 14:19:00
+    {
+        just finished readability.py.
+        regular expressions are such a boon; to be able to search through text like it can is pretty incredible. i feel as if i've only
+        scratched the surface with them too! i'm going to submit readability.py and get set up for the next problem in the set.
+    }
+}

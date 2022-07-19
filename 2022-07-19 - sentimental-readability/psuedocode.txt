@@ -1,0 +1,16 @@
+
+main
+get string
+
+Coleman_Liau_formula
+
+index = 0.0588 * letters / words - 0.296 * sentences / words - 15.8
+
+L is the average number of letters per 100 words in the text, and S is the average number of sentences per 100 words in the text.
+    count_letters
+
+    count_words
+
+    count_sentences
+
+print_answer
